@@ -27,8 +27,8 @@ The main contents are divided into two types.
 
 <br>
 
-1. Drawing EternityII: 
-2. Solving EternityII: 
+1. Drawing EternityII
+2. Solving EternityII 
 
 <br>
 
