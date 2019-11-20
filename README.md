@@ -8,18 +8,18 @@
 This is the solver of pseudo EternityII. The comments in the codes are written in Japanese.
 
 # Description
-In this system, we considered EternityII as more simple one, and call it "Pseudo EternityII". Originally, EternityII is a puzzle competition which was released on 28 July 2007. Tow million dollars are put on the puzzle, but noone can solve the puzzle. EternityII puzzle is an "edge-matching puzzle" which includes 256 square puzzle pieces and place them into a 16 by 16 grid. Then players must match adjacent edges. This puzzle is too difficult and time consuming to solve with laptop. Therefore, I introduced the easier version named Pseudo EternityII. The requirements of Pseudo EternityII are listed below.
+In this system, we considered EternityII as simpler one, and call it "Pseudo EternityII". Originally, EternityII is a puzzle competition which was released on 28 July 2007. Tow million dollars are put on the puzzle, but no one can solve the puzzle. EternityII puzzle is an "edge-matching puzzle" which includes 256 square puzzle pieces and places them into a 16 by 16 grid. Then players must match adjacent edges. This puzzle is too difficult and time-consuming to solve with a laptop. Therefore, I introduced the easier version named Pseudo EternityII. The requirements of Pseudo EternityII are listed below.
 
 <br>
 
 - The grid size is controllable.
-- The kind of inner color are controllable.
+- The kinds of inner colors are controllable.
 - The pieces cannot be rotated.
-- The middle piece is placed from the brginning.
+- The middle piece is placed from the beginning.
 
 <br>
 
-In addidion, to make the puzzle simpler, the grid size is set as odd number. This is becuase if the grid size is odd number, the middle piece is defined uniquely.
+In addition, to make the puzzle simpler, the grid size is set as an odd number. This is because if the grid size is an odd number, the middle piece is defined uniquely.
 
 <br>
 
@@ -51,13 +51,13 @@ Arguments:
 <br>
 
 Return:
-- An answer of the puzzle (answer.png)
+- An answer to the puzzle (answer.png)
 - A shuffled puzzle (input.png)
 
 <br>
 
 Note:
-- If you choose too many colors, the message like "Please set the differnt number of color. Anyway, we'll make the puzzle using hogehoge colors." is appeared.
+- If you choose too many colors, the message like "Please set the different number of colors. Anyway, we'll make the puzzle using hogehoge colors." is appeared.
 
 <br>
 
@@ -75,15 +75,15 @@ Arguments:
 <br>
 
 Return:
-- A solved pieces of the puzzle throgh the solver (output.png)
+- Solved pieces of the puzzle through the solver (output.png)
 
 <br>
 
 Standard Output:
-- Accuracy rate of the edges. 
+- An accuracy rate of the edges. 
 
 <br>
 
 Note:
-- If you choose too many colors, the message like "Please set the differnt number of color. Anyway, we'll make the puzzle using hogehoge colors." is appeared.
+- If you choose too many colors, the message like "Please set the different number of colors. Anyway, we'll make the puzzle using hogehoge colors." is appeared.
 - This solver does not do backprop. Therefore, in some cases, the accuracy rate cannot reach 100%.
