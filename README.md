@@ -1,6 +1,6 @@
 # EternityII
 <div align="center">
-<img src="images/eternity.png" alt="" title="", width="800">
+<img src="images/eternity_white.png" alt="" title="", width="800">
 </div>
 
 This is the solver of pseudo EternityII. The comments in the codes are written in Japanese.
