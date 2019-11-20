@@ -39,7 +39,7 @@ To our knowledge, we have tried to visualize EternityII for the first time. Draw
 # Usage
 ## Drawing
 ```
-$ python drqing.py [the number of the girds side] [the number of colors]
+$ python drawing.py [the number of the girds side] [the number of colors]
 ```
 
 <br>
