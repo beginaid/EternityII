@@ -39,9 +39,9 @@ def check_parameters(n, color):
   N = n**2
   inner = N*4 - (n*4)
   if inner<color*2:
-    print("colorを別の値にしてください！ \nとりあえず"+str(inner//2)+"色で塗り分けます！")
+    print("-----MASSAGE FROM THE PUZZLE MAKER-----\nPlease set the differnt number of color.\nAnyway, we'll make the puzzle using "+str(inner//2)+"colors.")
   else:
-    print("OKです！")
+    print("-----MASSAGE FROM THE PUZZLE MAKER-----\nIt is OK!!")
 
 def fill_corner(X, Y, Remains):
   N = len(X)

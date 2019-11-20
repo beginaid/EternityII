@@ -25,11 +25,3 @@ X = my_functions.puzzle_making(answer)
 
 my_functions.draw_puzzle(X, "input", color_code, n)
 IPython.display.Image("input.png")
-
-Y = my_functions.solve(X, n)
-
-my_functions.draw_puzzle(Y, "output", color_code, n)
-IPython.display.Image("output.png")
-
-score = (my_functions.check(Y)/(N*4)) * 100
-print("正答率:"+str(int(score)) + "%")
